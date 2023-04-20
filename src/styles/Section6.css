@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec6{
+    background-color: #fff;
+}
+.customer-review{
+width: 100%;
+background-image: url(../images/Union.png);
+background-repeat: no-repeat;
+background-size: 100%;
+position: relative;
+height: 300px;
+}
+.quote{
+    position: absolute;
+    left: 1rem;
+}
+.customer-detail{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+}
+@media (min-width: 600px) {
+    .customer-review{
+        width: 60%;
+        margin: auto;
+    }
+}
+@media (min-width: 900px) {
+    .review{
+        flex-direction: row!important;
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+    }
+    .customer-review{
+        width: 100%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,46 @@
+.body{
+    background-color: white!important;
+}
+.form-bg{
+    width:90%;
+    max-width: 500px;
+    background-color: #EEEDEE;
+    margin: 50px auto;
+}
+.form-bg input{
+    border: none;
+    outline: none;
+}
+.terms{
+    font-size: 0.8rem;
+}
+.signup-btn{
+    background-color:#7C20BF;
+
+}
+
+.switch{
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+    margin: 0.8rem;
+    background-color: #E4E4E4;
+    ;
+    ;
+}
+.switch button{
+    border-radius: 40px;
+    border: none;
+    background-color: transparent;
+    transition: 0.4s ease-in-out;
+    padding: 0.5rem 0rem;
+    
+}
+.switch button.active{
+    background-color: #fff;
+}
+select{
+    outline: none;
+    border: none;
+}

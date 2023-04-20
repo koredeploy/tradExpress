@@ -1,0 +1,15 @@
+.sec5-btn{
+    width: 60%;
+    margin: 1rem auto!important;
+    background-color: #7C20BE;
+    color: #fff;
+}
+@media (min-width: 900px){
+.sec5-btn{
+    width: 29%!important;
+}
+.sec5-link{
+    flex-direction: row!important;
+    width: 25%;
+}
+}

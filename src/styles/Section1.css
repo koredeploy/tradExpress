@@ -1,0 +1,62 @@
+.sec1-body{
+    width: 100%;
+    background-color: #7C20BE;
+}
+.sec1{
+    background-color: #7C20BE!important;
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+.hero-img{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0px;
+    width: 90%;
+    opacity: 45%;
+}
+.btn{
+    z-index: 2;
+}
+
+@media (min-width: 900px) {
+   
+    .sec1{
+        width: 100%;
+        margin: auto;
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left!important;
+        background: url(../images/Group\ 127.png);
+        background-repeat: no-repeat;
+        background-size: 55%;
+        background-position: 82% 0%; 
+    }
+    .info{
+        width: 41%;
+    }
+    a,p,h1,.btn,.download-links{
+        margin-left: 0px!important;
+        
+    }
+    .sec1-btn,.download-links{
+        width: 60%!important;
+    }
+    .text{
+        text-align: left!important;
+        margin-left: 0px!important;
+    }
+
+    #heading{
+        width: 50%;
+        text-align: left!important;
+    }
+    
+    .hero-img{
+        position: relative;
+        width: 50%;
+        opacity: 0%;
+    }
+}

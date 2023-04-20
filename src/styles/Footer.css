@@ -1,0 +1,11 @@
+@media(min-width: 900px){
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    gap: 4rem;
+}
+.f-links{
+    text-align: left!important;
+}
+}

@@ -1,0 +1,11 @@
+.copyright{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+@media (min-width: 900px){
+    .copyright{
+        grid-template-columns: 1fr 10fr;
+        width: 30%;
+    }
+}
