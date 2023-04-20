@@ -30,7 +30,7 @@ const Footer = () => {
         <Link className='w-100 text-black f-links  fw-bold text-decoration-none' to='/BuyAndSell'>Contact</Link>
         <Link className='w-100 text-black f-links text-decoration-none' to='/BuyAndSell'>hello@tradExpress.com</Link>
         <Link className='w-100 text-black f-links text-decoration-none' to='/BuyAndSell'>Support@tradExpress.com</Link>
-        <div className='d-flex gap-3 py-2'>
+        <div className=' d-flex justify-content-center gap-3 py-2 justify-content-lg-start'>
          <span><img src={twitter} alt=""  /></span> 
           <span><img src={telegram} alt="" /></span>
           <span><img src={whatsapp} alt="" /></span>
