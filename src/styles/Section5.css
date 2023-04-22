@@ -1,19 +1,12 @@
 .sec5-btn{
-    width: 50%;
+    width: 75%;
     margin: 1rem auto!important;
     background-color: #7C20BE;
     color: #fff;
 }
 
-/* .sec5-link img{
-    width: 25%;
-} */
 @media (min-width: 900px){
 .sec5-btn{
     width: 29%!important;
 }
-/* .sec5-link{
-    flex-direction: row!important;
-    width: 25%;
-} */
 }
