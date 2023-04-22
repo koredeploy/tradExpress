@@ -14,7 +14,7 @@ const Individual = () => {
 
       <p className='text-center w-75 mx-auto pt-3 terms fw-semi-bold'>By clicking the Sign Up button below, you agree to TradExpress <span className='text-purple'>terms and service</span></p>
       <button className='btn signup-btn text-white w-100 py-2' > SignUP</button>
-      <p className='pt-3 fs-small'>Already have an account ? <Link className='text-decoration-none my-3' to='/Login' > click here</Link></p>
+      <p className='pt-3 fs-small'>Already have an account ? <Link className=' text-purple text-decoration-none my-3 ' to='/Login' > click here</Link></p>
 
       </form>
     </div>

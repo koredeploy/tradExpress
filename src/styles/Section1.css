@@ -19,6 +19,16 @@
 .btn{
     z-index: 2;
 }
+@media (min-width: 450px){
+    .hero-img{
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        right: 0px;
+        width: 20%;
+        opacity: 0%;
+    }
+}
 
 @media (min-width: 900px) {
    
@@ -34,9 +44,9 @@
         background-size: 55%;
         background-position: 82% 0%; 
     }
-    .info{
+    /* .info{
         width: 41%;
-    }
+    } */
     a,p,h1,.btn,.download-links{
         margin-left: 0px!important;
         

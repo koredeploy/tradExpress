@@ -9,7 +9,7 @@ const Login = () => {
  const [showPasswordError, setShowPasswordError] = useState('false')
  const [errors, setErrors] = useState({
   uername: '',
-  password: 'This field is required',
+  password: '    This field is required',
  })
  
   return (
@@ -27,7 +27,7 @@ const Login = () => {
           setShowPasswordError(true)
         }
     
-      }} className='w-75 mx-auto py-3'>
+      }} className='w-100 mx-auto py-3'>
         <input onChange={(e)=>{
           setUsername(e.target.value)
           console.log(e.target.value);
@@ -39,16 +39,16 @@ const Login = () => {
           console.log(e.target.value);
         }}
         className='w-100 rounded-2 px-3 py-2 mt-4 mb-2' type="password" placeholder='Password' />
-        { showPasswordError && (<span className='text-danger'>{errors.password}</span>)} 
-        <div className='d-flex flex-row justify-content-between mt-4'>
-          <div className='d-flex gap-2'>
+        { showPasswordError && (<span className='text-danger '>{errors.password}</span>)} 
+        <div className='d-flex flex-column flex-md-row justify-content-between mt-4 '>
+          <div className='d-flex mx-auto mx-md-0 gap-2  align-center '>
             <span><img src={check} alt="" /></span>
-          <p className='fs-0.2rem'>Remember password</p>
+          <p className='fs-0.1rem py-0'>Remember password</p>
           </div>
-         <Link className='text-decoration-none'>Forgot Password</Link>
+         <Link className='text-decoration-none fs-0.1rem text-purple text-center'>Forgot Password</Link>
         </div>
       <button className='btn signup-btn text-white w-100 py-2 my-4' > Login </button>
-      <p className='text-center fs-small'>New User? <Link>Click here</Link> </p>
+      <p className='text-center fs-small '>New User? <Link className='text-decoration-none text-purple' >Click here</Link> </p>
       </form>
     </div>
     </div>
