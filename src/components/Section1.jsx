@@ -17,17 +17,17 @@ const Section1 = () => {
           >
             Buy Sell and Manage your crypto on tradExpress
           </h1>
-          <p className="w-75 mx-auto text-white text-center text">
+          <p className="w-75 mx-auto text-white text-center text my-3">
             Easily trade cryptocurrencies like BTC, USDT, ETH, LTC & XRP with
             NGN
           </p>
           <Link
-            className="sec1-btn mt-1 d-block text-center w-75 mx-auto text-purple text-decoration-none text-center btn border-white my-1 bg-white"
+            className="sec1-btn my-2 d-block text-center w-50 mx-auto text-purple text-decoration-none py-2  text-center btn border-white my-1 bg-white"
             to="/IndividualBusiness"
           >
             Get Started
           </Link>
-          <div className="download-links w-75 mx-auto d-flex pt-3 gap-2">
+          <div className="d-flex justify-content-center download-links w-75 mx-auto  gap-2 my-3 download">
             <Link>
               <img className="w-100 " src={Appstore} alt="" />{" "}
             </Link>

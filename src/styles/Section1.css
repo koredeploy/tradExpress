@@ -13,7 +13,7 @@
     z-index: 0;
     top: 0;
     right: 0px;
-    width: 90%;
+    width: 85%;
     opacity: 45%;
 }
 .btn{
@@ -30,7 +30,13 @@
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
+    .download{
+        justify-content: flex-start !important;
+    }
+}
+
+@media (min-width: 950px) {
    
     .sec1{
         width: 100%;
@@ -41,8 +47,8 @@
         text-align: left!important;
         background: url(../images/Group\ 127.png);
         background-repeat: no-repeat;
-        background-size: 55%;
-        background-position: 82% 0%; 
+        background-size: 50%;
+        background-position: 90% 40%; 
     }
     /* .info{
         width: 41%;
@@ -67,6 +73,7 @@
     .hero-img{
         position: relative;
         width: 50%;
+        padding: 0px 0px 20px;
         opacity: 0%;
         z-index: -1;
     }

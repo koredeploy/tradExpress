@@ -9,6 +9,8 @@ import Login from './pages/Login';
 import Error404 from './pages/Error404';
 import Navbarr from './components/Navbarr'
 import { useEffect, useState } from 'react';
+import Swipercarousel from './pages/Swipercarousel';
+import Progressbar from './components/Progressbar';
 
 
 
@@ -41,6 +43,8 @@ function App() {
       <Route path='almostin' element={<Almostin/>} />
       <Route path='login' element={<Login/>} />
       <Route path='*' element={<Error404/>} />
+      <Route path='swiper' element={<Swipercarousel/>}/>
+      <Route path='progress' element={<Progressbar/>}/>
      </Routes>
      </BrowserRouter>
     </div>

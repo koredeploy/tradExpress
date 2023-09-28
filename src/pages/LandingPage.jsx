@@ -21,8 +21,6 @@ const LandingPage = ({cryptoDetails}) => {
       <Section6/>
       <Footer/>
       <Copyright/>
-
-     
     </div>
   )
 }
