@@ -27,12 +27,12 @@ const Section1 = () => {
           >
             Get Started
           </Link>
-          <div className="d-flex justify-content-center download-links w-75 mx-auto  gap-2 my-3 download">
+          <div className="d-flex justify-content-center download-links w-75 mx-auto  gap-2 my-3 download ">
             <Link>
-              <img className="w-100 " src={Appstore} alt="" />{" "}
+              <img className="w-100 mobile" src={Appstore} alt="" />{" "}
             </Link>
             <Link>
-              <img className="w-100" src={playstore} alt="" />{" "}
+              <img className="w-100 mobile" src={playstore} alt="" />{" "}
             </Link>
           </div>
         </div>
